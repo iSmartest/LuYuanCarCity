@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">路远养车</string>
+    <string name="error_input_phone">请输入正确的手机号码</string>
+    <string name="error_input_pwd_fail_info_tips">请输入6-20位英文字母或数字</string>
+    <string name="error_input_verification">请输入验证码</string>
+    <string name="error_input_verification_fail_info">验证码错误:验证码由4位数字组成</string>
+    <string name="sure_to_do_sth">您确定要%s吗？</string>
+    <string name="ok_to_exit_it">确定退出吗?</string>
+    <string name="log_out">确定退出登录吗?</string>
+    <string name="delete_item">确定删除吗?</string>
+    <string name="url">服务器地址</string>
+    <string name="cp_select_city">选择城市</string>
+    <string name="cp_hot_city">热门城市</string>
+    <string name="cp_located_city">定位城市</string>
+    <string name="cp_hint_search_box">请输入城市名或拼音</string>
+    <string name="cp_nothing_found">没有搜索结果~</string>
+    <string name="cp_locating">正在定位…</string>
+    <string name="cp_located_failed">定位失败</string>
+</resources>

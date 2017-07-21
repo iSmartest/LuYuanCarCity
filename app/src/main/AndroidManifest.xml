@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lixin.luyuancarcity">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" ></uses-permission>
+
+    <application
+        android:name=".activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //登录
+        <activity android:name=".activity.LoginActivity"/>
+        //选择车型
+        <activity android:name=".activity.ChooseModelsActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        //低价车险
+        <activity android:name=".activity.LowPriceAutoInsuranceActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        //车险
+        <activity android:name=".activity.AutomobileInsuranceActivity"/>
+        //车险类型
+        <activity android:name=".activity.AutoInsuranceTypeActivity"/>
+        //车险类型详情
+        <activity android:name=".activity.InsuranceTypeDecActivity"/>
+        //我的保单
+        <activity android:name=".activity.MyPolicyActivity"/>
+        //我的保单详情
+        <activity android:name=".activity.MyPolicyDecActivity"/>
+        //城市地位选择
+        <activity android:name=".activity.CityPickerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="your key"/>
+        //维修保养
+        <activity android:name=".activity.MaintenanceActivity"/>
+        //加油充值
+        <activity android:name=".activity.RefuelingRechargeActivity"/>
+        //加油充值详情
+        <activity android:name=".activity.RefuelingRechargeDecActivity"/>
+        //换轮胎
+        <activity android:name=".activity.ChangeTiresActivity"/>
+        //车品商城
+        <activity android:name=".activity.CarMallActivity" />
+        //查违章
+        <activity android:name=".activity.CheckViolationActivity"/>
+        //特价洗车
+        <activity android:name=".activity.SpecialCarWashActivity"/>
+        //洗车门店详情
+        <activity android:name=".activity.StoreDecActivity"/>
+        //优惠券
+        <activity android:name=".activity.MyCouponActivity"/>
+        //车主贷款
+        <activity android:name=".activity.OwnerLoanActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        //车主信用卡
+        <activity android:name=".activity.OwnerCreditCardActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        //赚钱养车
+        <activity android:name=".activity.RaiseMoneyToKeepACarActivity"/>
+        //更多
+        <activity android:name=".activity.MoreActivity"/>
+        //个人信息
+        <activity android:name=".activity.MyPersonalInformationActivity"/>
+        //收货地址
+        <activity android:name=".activity.MyAddressActivity"/>
+        //购物车
+        <activity android:name=".activity.ShoppingCartActivity"/>
+        //收藏
+        <activity android:name=".activity.MyCollectionActivity"/>
+        //足迹
+        <activity android:name=".activity.MyFootActivity"/>
+        //我的发布
+        <activity android:name=".activity.MyReleaseActivity"/>
+        //我的所有订单
+        <activity android:name=".activity.MyAllOrderActivity"/>
+        //爱车档案
+        <activity android:name=".activity.CarFilesActivity"/>
+        //管理车型
+        <activity android:name=".activity.ManagementCarActivity"/>
+        //推荐好友
+        <activity android:name=".activity.RecommendFriendsActivity"/>
+        //意见反馈
+        <activity android:name=".activity.FeedbackActivity"/>
+        //申请成为商家
+        <activity android:name=".activity.ApplyForAdmissionActivity"/>
+        //设置
+        <activity android:name=".activity.SetUpActivity"/>
+        //修改密码
+        <activity android:name=".activity.ModifyPasswordActivity"/>
+
+    </application>
+
+</manifest>

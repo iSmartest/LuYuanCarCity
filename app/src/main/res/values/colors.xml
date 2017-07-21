@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="new_add">#d01d4c</color>
+    <color name="app_main_colour">#ca0639</color>
+    <color name="snow_white">#f0f0f0</color>
+    <color name="app_main_default">#ffffff</color>
+    <color name="black">#030303</color>
+    <color name="text_default_color">#1a1a1a</color>
+    <color name="divider_color">#e5e5e5</color>
+    <color name="gray">#cccccc</color>
+    <color name="text_color_main">#333333</color>
+
+    <color name="text_color_default">#2a2a2a</color>
+    <color name="app_main_background">#f0eff5</color>
+    <color name="statement">#4d4d4d</color>
+    <color name="hint_text_color_default">#d0d0d0</color>
+    <color name="btn_login_color">#ca0639</color>
+    <color name="app_login_blue">#1c81eb</color>
+    <color name="white_blue">#e1f3ff</color>
+    <color name="white_gray">#ececec</color>
+    <color name="transparent">#00000000</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="translucent">#e0000000</color>
+    <color name="pale_gold">#ffac15</color>
+    <color name="tangerine">#fd4b18</color>
+    <color name="sum_color">#fd7856</color>
+    <color name="wo_policy">#fd3a00</color>
+    <color name="text_color">#fe9272</color>
+    <color name="interest_rate">#eb3a00</color>
+
+
+
+    <color name="cp_divider">#E5E5E5</color>
+    <color name="cp_shadow">#AAEBEBEB</color>
+    <color name="cp_common_bg">#FAFAFA</color>
+    <color name="cp_content_bg">#F3F3F3</color>
+    <color name="cp_gray">#8c8c8c</color>
+    <color name="cp_gray_deep">#5c5c5c</color>
+    <color name="cp_alpha_gray">#CC646464</color>
+    <color name="cp_theme_gray">#646464</color>
+    <color name="cp_text_gray">#848484</color>
+
+</resources>
